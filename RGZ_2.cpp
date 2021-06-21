@@ -24,19 +24,7 @@ int main()
         if (!ICharFile)
             cout << "File opening error: \"Binary_Table_File.txt\"\n"
             "Check its integrity!";
-        else
-        {
-            string FirstWord, SecondWord;
-
-            cout << "Please enter 2 words in Latin:\n"
-                "-"; getline(cin, FirstWord);
-            cout << "-"; getline(cin, SecondWord);
-
-            MainLogic(INumFile, ICharFile, FirstWord, SecondWord);
-
-            INumFile.close();
-            ICharFile.close();
-        }
+       
     }
     system("pause");
     return 0;
