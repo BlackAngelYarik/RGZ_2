@@ -3,7 +3,6 @@
 #include <string>
 #include <fstream>
 #include <sstream>
-//using std::cout, std::cin, std::endl, std::string, std::vector, std::ifstream;
 using namespace std;
 void MainLogic(ifstream& INumFile, ifstream& ICharFile, string FirstWord, string SecondWord);
 void RowSort(vector<vector<char>>& CharArr, string FirstWord, string SecondWord);
