@@ -10,7 +10,7 @@ void ColSort(vector<vector<char>>& CharArr, string FirstWord, string SecondWord)
 void ShowTable(vector<vector<char>>& CharArr);
 
 
-////////   ÐÐ°Ð¿Ð¸ÑÐ°Ð½Ð¾ Ð Ð°Ð·Ð¾Ð¼   ////////
+////////   teamwork   ////////
 int main()
 {
     ifstream INumFile("File_Of_Numbers.txt");
